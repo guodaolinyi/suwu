@@ -1,0 +1,329 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>苏武文化</title>
+    <meta name="description" content="苏武文化研究专题站" />
+    <meta name="keywords" content="苏武文化 苏武 苏振武 苏武牧羊"/>
+    <link rel="icon" href="favicon.ico" mce_href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" mce_href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="skin/css/uikit.css">
+    <!--[if lte IE 8]>
+    <script>window.location.href='http://cdn.dmeng.net/upgrade-your-browser.html?referrer='+location.href;</script>
+    <![endif]-->
+    <!--[if lte IE 7]>
+    <script>window.location.href='http://cdn.dmeng.net/upgrade-your-browser.html?referrer='+location.href;</script>
+    <![endif]-->
+    <!--[if lte IE 6]>
+    <script>window.location.href='http://cdn.dmeng.net/upgrade-your-browser.html?referrer='+location.href;</script>
+    <![endif]-->
+    <script type="text/javascript" src="skin/js/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="skin/js/uikit.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="skin/css/components/slideshow.css">
+    <link rel="stylesheet" type="text/css" href="skin/css/components/slidenav.gradient.css">
+    <script type="text/javascript" src="skin/js/components/slideset.js"></script>
+    <script type="text/javascript" src="skin/js/components/slideshow.js"></script>
+    <!-- 页面header钩子，一般用于加载插件CSS文件和代码 -->
+    <style type="text/css">
+        *{
+            padding:0;
+            margin:0;
+            border:0;
+        }
+        body{
+            background-image: url(skin/img/paper.jpg);
+            position: static;
+        }
+        .float-left{
+            float: left;
+        }
+        .float-right{
+            float: right;
+        }
+        ul,li{
+            list-style-type: none;
+        }
+        .nav > li{
+            float: left;
+            padding: 0 2px;
+        }
+        p{
+            text-indent:2em
+        }
+        a,a:hover{
+            color: #444;
+        }
+        .uk-overlay-panel p{
+            text-indent: 0;
+            text-align: center;
+        }
+        .news{
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<div class="bg">
+    <!-- 头部 -->
+    <div class="header" style="width: 100%;background-color: #eeeeee; opacity:0.9;filter:alpha(opacity=90);position: fixed;z-index:99;border-bottom: 0.5px #aaa solid">
+        <div class="uk-container uk-container-center">
+            <div class="float-left">
+                <a href="">
+                    <img src="skin/img/logo.png" style="width:160px;height:45px;padding: 5px 20px 5px 0;">
+                </a>
+            </div>
+            <div class="float-left">
+                <nav class="uk-navbar">
+                    <ul class="uk-navbar-nav">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="news.html">学术动态</a></li>
+                        <li><a href="study.html">研究成果</a></li>
+                        <li><a href="player.html">影视戏剧</a></li>
+                        <li><a href="more.html">瞭望苏门</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="float-right" style="padding-top: 10px;">
+                <ul class="nav" style="margin-right:0">
+                    <li>
+                        <a href="/home/user/login">登录</a>
+                    </li>
+                    <li>
+                        <a href="/home/user/register" style="padding-left:0;padding-right:0">注册</a>
+                    </li>
+                </ul>        </div>
+            <div class="float-right"style="padding-top: 5px;">
+                <form class="uk-form">
+                    <div class="uk-form-row uk-form-icon">
+                        <i class="uk-icon-search"></i><input name="" placeholder="今日推荐" type="text" class="search-text">
+                        <button class="uk-button">搜索</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div style="position: relative;top:45px;">
+        <div class="uk-slidenav-position" data-uk-slideshow="{kenburns:true, autoplay:true}">
+            <ul class="uk-slideshow" style="height: 411px;">
+                <li aria-hidden="false" class="uk-active" style="animation-duration: 500ms; height: 480px;">
+                    <div class="uk-cover-background uk-position-cover uk-animation-scale uk-animation-reverse uk-animation-top-center" style="background-image: url(skin/img/sw1.jpg); animation-duration: 15s;"></div>
+                    <canvas width="800" height="400" style="height: auto; opacity: 0;"></canvas>
+                    <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                        <div>
+                            <h1>天地有正气，杂然赋流形。</h1>
+                        </div>
+                    </div>
+                </li>
+                <li aria-hidden="true" style="animation-duration: 500ms; height: 480px;" class="">
+                    <div class="uk-cover-background uk-position-cover uk-animation-scale uk-animation-reverse uk-animation-top-right" style="background-image: url(skin/img/sw2.jpg); animation-duration: 15s;"></div>
+                    <canvas width="800" height="400" style="height: auto; opacity: 0;"></canvas>
+                    <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                        <div>
+                            <h1>凤箫声绝沉孤雁，望断清波无双鲤。</h1>
+                        </div>
+                    </div>
+                </li>
+                <li aria-hidden="true" style="animation-duration: 500ms; height: 480px;" class="">
+                    <div class="uk-cover-background uk-position-cover uk-animation-scale uk-animation-reverse uk-animation-bottom-left" style="background-image: url(skin/img/sw3.jpg); animation-duration: 15s;"></div>
+                    <canvas width="800" height="400" style="height: auto; opacity: 0;"></canvas>
+                    <div class="uk-overlay-panel uk-overlay-background uk-overlay-fade uk-flex uk-flex-center uk-flex-middle uk-text-center">
+                        <div>
+                            <h1>弘扬苏武文化，传承爱国情怀。</h1>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous" style="color: rgba(255,255,255,0.4)"></a>
+            <a href="#" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next" style="color: rgba(255,255,255,0.4)"></a>
+        </div>
+    </div>
+
+
+
+    <div class="uk-container uk-container-center" style="position: relative;top:45px;padding: 10px;">
+        <div class="uk-grid uk-grid-medium">
+            <div class="uk-width-1-1 uk-text-center" style="padding-top: 50px">
+                <h1>苏武文化</h1>
+                <article class="uk-article" style="text-align: left;">
+                    <h2>苏武简介</h2>
+                    <div class="uk-grid uk-grid-medium">
+                        <div class="uk-width-4-5">
+                            <p class="uk-article-lead">
+                                苏武(前140─前60)字子卿，武功人，代郡太守，苏建之子。早年以父荫为郎，稍迁中厩监。天汉元年(前100)拜中郎将，奉命持节与副使张胜、假使常惠，募士百余人出使匈奴。侯单于骄狂，并不优礼汉使。时有一个投降匈奴、被匈奴封为缑王的汉人，和其他一些降人，打算劫单于母归汉，副使张胜卷入这一阴谋。事泄，单于欲尽杀汉使，其大臣以为不可，主张拘降汉使，遂传讯武等。武以为这是侮辱，拔刀自尽未遂，单于敬其忠烈，遣医调治，诱逼其降。武不屈，单于怒，幽禁于地窖中，绝其饮食。武以旃毛和雪而咽，得不死。单于又将他远徙至北海(今俄国贝加尔湖)上牧养公羊，告以公羊生乳，方许放归。武在冰天雪地中，掘草根以充饥，牧羊时手持汉节，节旄尽脱仍不释手。
+                            </p>
+                            <p class="uk-article-lead">
+                                昭帝时复与匈奴和亲，请遣返汉使，单于诡称苏武已死。后汉使探知实情，声言汉天子在上林苑射得大雁，雁足系有苏武所写帛书，云在某泽中。单于不得已，交还武等九人，时武在匈奴已十九年。始元六年(前81年)返抵长安，拜典属国。武与上官桀父子、桑弘羊有旧交。后霍光以谋反罪杀桀等，武以此罢官。昭帝死后，武预迎立宣帝事，赐爵关内侯，复为右曹典属国。
+                            </p>
+                        </div>
+                        <div class="uk-width-1-5">
+                             <img src="skin/img/suwu.png" style="position: absolute;top: -10px;">
+                        </div>
+                    </div>
+                    <hr class="uk-article-divider"/>
+                </article>
+            </div>
+        </div>
+
+        <div class="uk-grid">
+            <div class="uk-width-1-1 uk-text-center" style="padding-top: 50px;padding-bottom: 30px;">
+                <h1>学术动态</h1>
+                <div class="uk-grid uk-grid-small news" data-uk-grid-margin style="padding-top: 30px;">
+                    <div class="uk-width-1-2">
+                        <div class="uk-grid uk-grid-small">
+                            <div class="uk-width-2-5">
+                                <a href="video4.html"><img src="skin/img/video/5.jpg" alt=""></a>
+                            </div>
+                            <div class="uk-width-3-5">
+                                <p><a href="video4.html">《记住乡愁》是由中共中央宣传部、住房和城乡建设部、国家新闻出版广电总局、国家文物局联合发起，中央电视台中文国际频道组织拍摄的大型纪录片。2015年1月1日起在中央电视台中文国际频道播出，采取季播方式，第一季从1月1日至3月4日播出60集；纪录频道（CCTV9）重播，综合频道（CCTV1）精选部分节目进行展播。中国全国各省级卫视及地面频道也安排播出……</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-2">
+                        <div class="uk-grid uk-grid-small">
+                            <div class="uk-width-2-5">
+                                <a href="w-2.html"><img src="skin/img/news/2.jpg" alt=""></a>
+                            </div>
+                            <div class="uk-width-3-5">
+                                <p><a href="w-2.html">11月29日，我校苏振武教授应邀赴广西南宁参加民族英雄苏缄爱国主义精神研讨会。苏振武的专著《忠勇苏缄与道德价值》作为本次会议的主要资料发给数百名与会者，并举行了首发式；他介绍了该书的写作初衷、著述过程和基本框架、基本内容，以《苏缄的人格风范和精神实质》为题作了学术发言……</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-width-1-1 uk-text-center" style="padding-top: 50px;">
+                <h1>作品推荐</h1>
+                <div class="uk-grid uk-grid-small" style="padding-top: 30px;padding-bottom: 30px;">
+                    <div class="uk-width-medium-1-2 float-left">
+                        <div class="uk-grid uk-grid-small">
+                            <div class="uk-width-medium-1-2">
+                                <figure class="uk-overlay uk-overlay-hover">
+                                    <img src="skin/img/book/1.png" alt="" height="400" width="600">
+                                    <figcaption class="uk-overlay-panel uk-overlay-fade uk-overlay-bottom">
+                                        <h3>更多</h3>
+                                        <p>敬请期待..</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="uk-width-medium-1-2">
+                                <figure class="uk-overlay uk-overlay-hover">
+                                    <img src="skin/img/book/2.png" alt="" height="400" width="600">
+                                    <figcaption class="uk-overlay-panel uk-overlay-fade uk-overlay-bottom">
+                                        <h3>更多</h3>
+                                        <p>敬请期待..</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-medium-1-2 float-left">
+                        <div class="uk-grid uk-grid-small">
+                            <div class="uk-width-medium-1-2">
+                                <figure class="uk-overlay uk-overlay-hover">
+                                    <img src="skin/img/book/3.png" alt="" height="400" width="600">
+                                    <figcaption class="uk-overlay-panel uk-overlay-fade uk-overlay-bottom">
+                                        <h3>更多</h3>
+                                        <p>敬请期待..</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="uk-width-medium-1-2">
+                                <figure class="uk-overlay uk-overlay-hover">
+                                    <img src="skin/img/book/4.jpg" alt="" height="400" width="600">
+                                    <figcaption class="uk-overlay-panel uk-overlay-fade uk-overlay-bottom">
+                                        <h3>更多</h3>
+                                        <p>敬请期待..</p>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-width-1-1 uk-text-center" style="padding-top: 50px;">
+                <h1>研究专家</h1>
+                <div class="uk-grid uk-grid-medium uk-text-left" data-uk-grid-margin style="padding-top: 30px;padding-bottom: 30px;">
+                    <div class="uk-width-1-1" style="border-bottom: #aaaaaa 1px dashed;padding-bottom: 10px;">
+                        <div class="uk-width-1-5 float-left"><img src="skin/img/avator/3.jpg" alt="" class="uk-border-circle" width="150"></div>
+                        <div class="uk-width-3-4 float-left">
+                            <h2><a href="szw.html">苏振武</a></h2>
+                            <p><a href="szw.html">苏振武教授，男，陕西武功人，生于1952年3月，中共党员。系陕西省马克思主义哲学史研究会副理事长，宝鸡市哲学学会副会长，陕西省哲学学会苏武文化研究会理事长，现为宝鸡文理学院哲学研究所所长。出版著作有《人力资源开发与素质教育》、《陕西人才开发与经营方略》、《周秦经济伦理与现代市场伦理》、《汉之魂：苏武精神及其当代价值》等。</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-1-1 uk-text-center" style="padding: 50px 0 70px 0;">
+                    <h1>影视戏曲</h1>
+                    <div style="padding-top: 30px;">
+                          <ul class="uk-grid" data-uk-grid-margin="">
+                                <li class="uk-width-medium-1-5">
+                                    <figure class="uk-overlay uk-overlay-hover">
+                                        <a href="video4.html">
+                                            <img class="uk-overlay-spin" src="skin/img/video/5.jpg" alt="Image" height="400" width="600">
+                                        </a>
+                                        <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-bottom uk-overlay-slide-bottom">
+                                            <p>《记住乡愁》苏武故里</p>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                                <li class="uk-width-medium-1-5">
+                                    <figure class="uk-overlay uk-overlay-hover">
+                                        <a href="player.html">
+                                            <img class="uk-overlay-spin" src="skin/img/video/3.jpg" alt="Image" height="400" width="600">
+                                        </a>
+                                        <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-bottom uk-overlay-slide-bottom">
+                                            <p>访谈《百家姓-苏姓》</p>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                                <li class="uk-width-medium-1-5 uk-row-first">
+                                    <figure class="uk-overlay uk-overlay-hover">
+                                        <a href="video2.html">
+                                            <img class="uk-overlay-spin" src="skin/img/video/1.jpg" alt="Image" height="400" width="600">
+                                        </a>
+                                        <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-bottom uk-overlay-slide-bottom">
+                                            <p>京剧《苏武牧羊》</p>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                                <li class="uk-width-medium-1-5">
+                                    <figure class="uk-overlay uk-overlay-hover">
+                                        <a href="video1.html">
+                                            <img class="uk-overlay-spin" src="skin/img/video/2.jpg" alt="Image" height="400" width="600">
+                                        </a>
+                                        <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-bottom uk-overlay-slide-bottom">
+                                            <p>歌剧《大汉苏武》</p>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                                <li class="uk-width-medium-1-5">
+                                    <figure class="uk-overlay uk-overlay-hover">
+                                        <a href="video3.html">
+                                            <img class="uk-overlay-spin" src="skin/img/video/4.jpg" alt="Image" height="400" width="600">
+                                        </a>
+                                        <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-bottom uk-overlay-slide-bottom">
+                                            <p>秦腔《苏武牧羊》</p>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="background-color: #bebebe;opacity:0.9;filter:alpha(opacity=90);position: relative;top:45px;">
+        <div class="uk-container uk-container-center uk-text-center" style="padding: 30px 0;background-color: #bebebe;opacity:0.9;filter:alpha(opacity=90);">
+            <ul class="uk-subnav uk-subnav-line uk-flex-center">
+                <li><a href="http://bjwlxy.cn/" rel="nofollow">宝鸡文理学院</a></li>
+                <li><a href="http://web.bjwlxy.cn/zxx/" rel="nofollow">宝鸡文理哲学系</a></li>
+            </ul>
+            <div class="uk-panel">
+                <p>本网站由 <a href="" rel="nofollow">东美互联技术研发团队</a> 制作。</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script>var _hmt=_hmt||[];(function(){var hm=document.createElement("script");hm.src="https://hm.baidu.com/hm.js?fca11196610bc5f8cf74fd54446a68f2";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm,s)})();(function(){var bp=document.createElement("script");var curProtocol=window.location.protocol.split(":")[0];if(curProtocol==="https"){bp.src="https://zz.bdstatic.com/linksubmit/push.js"}else{bp.src="http://push.zhanzhang.baidu.com/push.js"}var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(bp,s)})();</script>
+</body>
+</html>

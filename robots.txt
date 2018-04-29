@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Sitemap: http://suwu.tinywo.com/sitemap.xml
+Sitemap: http://suwu.tinywo.com/sitemap.html
