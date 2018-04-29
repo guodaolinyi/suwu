@@ -1,0 +1,7 @@
+.footer-line{
+    text-align: center;
+}
+.footer-line li{
+    display:inline;
+    list-style-type: none;
+}

@@ -1,0 +1,21 @@
+@import url('header.css');
+@import url('footer.css');
+.banner{
+    float: left;
+}
+.focus-topic{
+    float: left;
+}
+.float-left {
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.border-top {
+    border-top: 2px solid #aaaaaa;
+    padding-top: 10px;
+}
+.sub-nav{
+    display: flex;
+}
